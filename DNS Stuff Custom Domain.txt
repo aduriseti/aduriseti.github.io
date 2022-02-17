@@ -1,0 +1,9 @@
+
+NAMESERVERS
+ns-1072.awsdns-06.org
+ns-1966.awsdns-53.co.uk
+ns-354.awsdns-44.com
+ns-702.awsdns-23.net
+
+SOA VALUE
+ns-1072.awsdns-06.org. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400
