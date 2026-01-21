@@ -4,8 +4,8 @@ github_username: aduriseti
 
 theme: minima
 
-# Show previews on the homepage automatically
 show_excerpts: true
+excerpt_separator: "<!-- excerpt-end -->"
 
 plugins:
   - jekyll-feed
