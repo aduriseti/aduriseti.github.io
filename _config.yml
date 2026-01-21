@@ -2,13 +2,12 @@ title: This is my brain...
 description: Hey! - new year new me. Time to show off some of my hobby projects.
 github_username: aduriseti
 
-remote_theme: pages-themes/primer
-markdown: kramdown
-kramdown:
-  input: GFM
+theme: minima
+
+# Show previews on the homepage automatically
+show_excerpts: true
 
 plugins:
-  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-titles-from-headings
