@@ -21,17 +21,22 @@
 title: This is my brain...
 email: aduriseti@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Hey - new year (2022) new me.  Time to show off some of my hobby projects.
+  Hey! - new year new me.  Time to show off some of my hobby projects.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: kristinnpatels
 github_username:  aduriseti
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-titles-from-headings
+
+titles_from_headings:
+  enabled:     true
+  strip_title: true
+  collections: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
